@@ -7,9 +7,12 @@ como fazer entrada de dados
 
 como fazer saida de dados
 
-## exercicias
+## exercicios
+
+
+### exercicio_1
 ```
-digite n numeros e imprima a media
+digite 3 numeros e imprima a media
 entrada: 1
 entrada: 2
 entrada: 3
@@ -17,12 +20,16 @@ entrada: 3
 saida: 2
 ```
 
+
+### exercicio_2
 ```
 digite seu nome, e que a saida seja sempre maiuscula
 entrada: gustavo
 saida: GUSTAVO
 ```
 
+
+### exercicio_3
 ```
 hard
 Jogo de Forca. Desenvolva um jogo da forca. O programa terá uma lista de palavras lidas de um arquivo texto e escolherá uma aleatoriamente. O jogador poderá errar 6 vezes antes de ser enforcado.
