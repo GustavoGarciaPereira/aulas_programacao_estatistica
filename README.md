@@ -11,3 +11,4 @@
 
 [ListaDeExercicios](https://wiki.python.org.br/ListaDeExercicios)
 
+[video encontro](https://www.youtube.com/watch?v=waW-iWouKG4)
