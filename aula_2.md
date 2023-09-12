@@ -58,4 +58,5 @@ for tempo in list_tempo:
 vamos começar a pensar em como começar a modelar esse problema
 
 ![Alt text](image.png)
-fondo 
+fonte
+[fonte video Altay](https://www.youtube.com/watch?v=J7V-pBniU_8&list=PLZjaOxYREinv_M_2nc-BIwptMbfIFipQj&index=10)
