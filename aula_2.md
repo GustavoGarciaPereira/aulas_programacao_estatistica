@@ -54,3 +54,8 @@ for tempo in list_tempo:
     saida = f"o valor convertido é:{segundos_converse}"
     print(saida)
 ```
+
+vamos começar a pensar em como começar a modelar esse problema
+
+![Alt text](image.png)
+fondo 
