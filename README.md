@@ -14,3 +14,5 @@
 [video primeiro encontro](https://www.youtube.com/watch?v=waW-iWouKG4)
 
 [bioscriptistica](https://bioscriptistica.com.br/conteudo/)
+
+[python](https://www.python.org/downloads/)
