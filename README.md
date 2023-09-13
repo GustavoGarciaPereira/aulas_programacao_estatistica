@@ -20,6 +20,6 @@ Bioscriptistica: Explore mais recursos e conteúdos relacionados em [bioscriptis
 
 Download Python: Para começar a programar, é necessário ter o Python instalado. Baixe a versão mais recente do Python em [python.org](https://www.python.org/downloads/).
 
-💡 Dica
+## 💡 Dica
 Para uma melhor experiência de aprendizado, recomendo que você instale um ambiente de desenvolvimento adequado, pratique regularmente e participe ativamente das aulas!
 
