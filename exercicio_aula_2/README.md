@@ -36,7 +36,7 @@ Execute o script sobrevida_dash.py:
 ```bash
 python sobrevida_dash.py
 ```
-![Alt text](<newplot (1).png>)
+![Alt text](<newplot_1.png>)
 
 Isso iniciará um servidor local e você pode visualizar o gráfico em um navegador web acessando http://127.0.0.1:8050/.
 

@@ -1,0 +1,15 @@
+# fly.toml app configuration file generated for segundo on 2023-09-14T16:09:13-03:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "segundo"
+primary_region = "gru"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]

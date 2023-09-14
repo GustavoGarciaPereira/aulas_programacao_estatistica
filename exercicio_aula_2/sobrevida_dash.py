@@ -86,7 +86,7 @@ for i in dados:
 
 # Criar a aplicação Dash
 app = dash.Dash(__name__)
-
+server = app.server
 app.layout = html.Div([
     html.H1("Sobrevida Kaplan-Meier"),
     dcc.Graph(
@@ -115,13 +115,13 @@ app.layout = html.Div([
     )
 ])
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
 
-    # server = app.server
+#     # server = app.server
 
-    # @server.after_request
-    # def add_custom_header(response):
-    #     response.headers['ngrok-skip-browser-warning'] = "1"
-    #     return response
+#     # @server.after_request
+#     # def add_custom_header(response):
+#     #     response.headers['ngrok-skip-browser-warning'] = "1"
+#     #     return response
 
-    app.run_server(debug=True)
+# app.run_server(debug=True)
