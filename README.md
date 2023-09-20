@@ -23,3 +23,8 @@ Download Python: Para começar a programar, é necessário ter o Python instalad
 ## 💡 Dica
 Para uma melhor experiência de aprendizado, recomendo que você instale um ambiente de desenvolvimento adequado, pratique regularmente e participe ativamente das aulas!
 
+# Participantes
+
+- Fabin1
+- Helder
+- Gustavo
