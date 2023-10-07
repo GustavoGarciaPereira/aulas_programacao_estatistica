@@ -42,4 +42,37 @@ def main():
 
     plt.show()
     
-main()
+# main()
+
+def cauculo(funcao):
+    x = sp.symbols('x')
+
+    # Definir a função
+    # f = 'x**2 + 2*x + 1'
+
+    # Calcular a derivada
+    f_prime = sp.diff(funcao, x)
+
+    # Exibir a derivada
+    # print(f_prime)
+    return f_prime
+
+
+def desenhar_grafico(f_prime):
+    x = sp.symbols('x')
+    xs = range(100)
+    ys = []
+    for i in xs:
+        f_prime_at_3 = f_prime.subs(x, i)
+
+        value_at_3 = f_prime_at_3.evalf()
+        ys.append(value_at_3)
+        # print(value_at_3)
+    
+    plt.plot(xs,ys)
+
+    plt.title (f_prime)
+    plt.xlabel("Delay")
+    plt.ylabel("Subject Value")
+
+    plt.show()
