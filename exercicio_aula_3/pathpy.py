@@ -25,24 +25,27 @@ def main():
 
     # Exibir a derivada
     print(f_prime)
-    xs = range(100)
+    xs = range(-100, 100)
     ys = []
-    for i in xs:
-        f_prime_at_3 = f_prime.subs(x, i)
 
-        value_at_3 = f_prime_at_3.evalf()
-        ys.append(value_at_3)
-        # print(value_at_3)
+    ys = list(map(lambda i: f_prime.subs(x, i).evalf(), xs))
+    # for i in xs:
+    #     f_prime_at_3 = 
+
+    #     # value_at_3 = f_prime_at_3
+    #     ys.append(f_prime_at_3)
+    #     # print(value_at_3)
+
+    plt.plot(xs, ys)
     
-    plt.plot(xs,ys)
 
-    plt.title (f_prime)
+    plt.title(f_prime)
     plt.xlabel("Delay")
     plt.ylabel("Subject Value")
 
     plt.show()
     
-# main()
+main()
 
 def cauculo(funcao):
     x = sp.symbols('x')

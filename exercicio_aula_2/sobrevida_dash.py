@@ -87,6 +87,7 @@ for i in dados:
 # Criar a aplicação Dash
 app = dash.Dash(__name__)
 server = app.server
+
 app.layout = html.Div([
     html.H1("Sobrevida Kaplan-Meier"),
     dcc.Graph(
