@@ -45,7 +45,6 @@ def main():
 
     plt.show()
     
-main()
 
 def cauculo(funcao):
     x = sp.symbols('x')
@@ -79,3 +78,5 @@ def desenhar_grafico(f_prime):
     plt.ylabel("Subject Value")
 
     plt.show()
+if __name__ == '__main__':
+    main()
